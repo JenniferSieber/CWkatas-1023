@@ -1,8 +1,5 @@
 // www.codewars.com
 // KATA 1 7kyu
-// https://www.codewars.com/kata/5acbc3b3481ebb23a400007d/train/javascript
-
-// H hearts S Spades C clubs D Diamonds
 const isFlush = (cards) => {
   let suit = cards[0].slice([-1]);
   let result;
